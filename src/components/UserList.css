@@ -1,0 +1,13 @@
+.user-list {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100px 100px 100px 100px;
+    column-gap: 200px;
+    row-gap: 50px;
+    width: 90%;
+}
+
+.loading {
+    font-size: 30px;
+    color: rgb(225, 0, 0);
+}

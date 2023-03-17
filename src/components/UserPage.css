@@ -1,0 +1,38 @@
+.user-page {
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.user-info {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 2rem;
+}
+
+.profile {
+    border: 1px solid gray;
+    width: 50%;
+    height: 20%;
+}
+
+.profile-name {
+    font-weight: bold;
+}
+
+ul li {
+    list-style: none;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.profile-address {
+    border: 1px solid grey;
+    width: 20%;
+    height: 20%;
+}
+
+.profile-address p {
+    font-weight: bold;
+}
