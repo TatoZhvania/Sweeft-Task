@@ -1,0 +1,35 @@
+.search-words-container {
+    width: 100%;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.search-words-container h2 {
+    font-size: 25px;
+}
+
+.history-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.history-list ul {
+    display: flex;
+    text-transform: capitalize;
+    gap: 20px;
+}
+
+.history-list ul li {
+    cursor: pointer;
+    list-style: none;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+}
+
+.history-list ul li:active {
+    transform: scale(1.5);
+}

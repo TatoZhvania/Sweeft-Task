@@ -1,0 +1,14 @@
+.image-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.image-list img {
+    width: 20rem;
+    height: 15rem;
+    object-fit: cover;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.327);
+}

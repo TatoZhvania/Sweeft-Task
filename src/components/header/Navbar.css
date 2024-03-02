@@ -1,0 +1,19 @@
+.header-div {
+    display: flex;
+    width: 100%;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.327);
+}
+
+.nav-div {
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.nav-div li a {
+    color: #fff;
+    font-size: 20px;
+}
